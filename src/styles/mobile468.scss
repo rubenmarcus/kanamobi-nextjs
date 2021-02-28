@@ -1,0 +1,452 @@
+@media (min-width: 469px) and  (max-width:767px) { 
+    html{
+        overflow-x:hidden;
+    }
+    .grid-line {animation-name:''!important;   
+          opacity: 1;
+        height: 100%;}
+
+        .menu-top ol li::before{
+
+            display:none!important;
+        }
+        header img{
+
+            left: calc(100vw /3 - 72px);
+        }
+        .menu-top a{
+            font-size: 34pt;
+            z-index: 9999;
+        }
+    // Sliders
+        .is-desktop,.grid-line-3,.grid-line-4,.grid-line-5,.number,.numbers li:nth-child(3),.numbers li:nth-child(4),.numbers li:nth-child(5){ display: none!important;}
+        .grid-line-1 {
+            left: calc(100vw/3)!important;
+        }
+
+        .grid-line-2 {
+            left: calc(100vw/3 *2)!important;
+        }
+        .clientes button.slick-arrow.slick-next {
+            display: block !important;
+        }
+        .clientes .numbers li{
+
+            width: calc(100vw/3);
+        }
+
+        body{
+            overflow-x: hidden;
+        }
+    
+        header img{
+            width: 138px;
+            position: absolute;
+            bottom: 66px;
+    
+        }
+        .home__first{
+    
+            .slider-title h1{
+            line-height: 4rem;
+            font-size: 4.5rem;
+            }
+            .sliders .number {
+    
+                font-size: 8rem;
+                margin-left: -70px;
+    
+            }
+    
+            button.slick-arrow.slick-next,  button.slick-arrow.slick-prev{
+
+                top:inherit;
+                bottom:100px;
+            }
+        }
+
+        .sliders .numbers li:nth-child(2) {
+            left: calc(100vw/3 * 2);
+        }
+        .sliders .numbers li:first-child {
+            left: calc(100vw/3);
+        }
+      
+    
+    // Quem Somos
+    
+        .home__second {
+            height: 887px;
+            .number{
+    
+    
+                font-size: 6rem;
+                margin-left: -62px;
+            }
+    
+           .qs-timeline-release {
+            max-width:calc(100vw/6 - 22px);
+    
+            }
+    
+            h1{
+    
+                width: 370px;
+                position: relative;
+                left: calc(100vw/6 *2);
+                line-height: 59px;
+                z-index: 999;
+                margin-bottom: 47px;
+                font-size: 4rem;
+                letter-spacing: .7rem;
+                padding-top: 0px;
+                margin-top: -47px;
+    
+            }
+            .qs-sum {
+                font-size: 1.2rem;
+            }
+    
+            .quemsomos-gallery {
+                margin-top: -320px;
+                 transform: scale(0.7);
+                 margin-left: -76px;
+            }
+    
+            .qs-title h2 {
+                font-size: 2rem;
+            }
+    
+            .office {
+    
+                right: -24px;
+                top: 75px;
+            }
+        }
+    
+    // Success Stories 
+    
+      
+    .cases{
+        .cases-info-subtitle {
+
+            left: calc(100vw/6);
+            margin-top: -39px;
+
+        }
+        .legenda-foto {
+            font-size:2rem;
+            bottom:60px;
+        }
+        
+        .numbers {
+
+            bottom:0px;
+        }
+      .number{
+            top:inherit;
+            bottom:5%;
+            font-size:8rem;
+            left: calc(100vw/6 * 5 - 72px);
+        }
+        .cases-info-desc , .cases-info .button-cases-desc {    left: calc(100vw/6);}
+
+        .case-destaque .slick-dots {
+            right: 277px;
+            margin-top: -117px;
+            transform: scale(0.75);
+        }
+
+        .case-destaque button.slick-arrow.slick-next {
+
+            margin-top: -271px;
+            left: 88px;
+            transform: scale(0.7);
+
+         }
+        .cases-info h1 {
+            line-height: 66px;
+            font-size: 50pt;
+            margin-left: 97px;
+            margin-top: 20px;
+        }
+        .gallery-case img {
+
+            min-height:310px;
+
+
+        }
+        .casesIn-desc button.slick-arrow.slick-prev {
+            left: -91px;
+            bottom: 116px;
+
+        }
+        .casesIn-desc button.slick-arrow.slick-next{
+        bottom: 32px;
+        margin-left: -90px;
+
+    }
+
+        .case-destaque {
+            width: calc(100vw/6 * 3);
+        }
+
+        .case-destaque .slick-list {
+            transform: scale(0.65);
+            margin-left: -173px;
+            margin-top: -147px;
+        }
+        .cases-cliente-img {
+            position: absolute;
+            right: 112px;
+            -webkit-transform: rotate(-90deg);
+            transform: scale(1.3) rotate(-90deg);
+            top: 91px;
+        }
+    }
+    
+    
+    // Ecossistema
+    
+        .home__third{
+            .grid-line-4-above, .grid-line-2-above {
+                    top: inherit;
+                    bottom: 0px;
+                }
+                .grid-line-1, .grid-line-5 {
+
+                    height:152vh
+        
+        
+                }
+            h1{
+                font-size:45pt
+            }
+            .ecos .outside {
+                width: 768px;
+                height: 767px;
+                position: relative;
+                left: 50%;
+                margin-left: -380px;
+                top: 158px;
+                transform: scale(0.9);
+            }
+            .ecos .inside .label-in{
+                top: 47.5vh;
+                left: 50%;
+                margin-left: -94px;
+            }
+
+            .ecoIn-project h1 {
+                font-size: 20pt!important;
+                line-height: 36px!important;
+                word-break: break-all;
+            }
+            .number{
+    
+    
+                font-size: 8rem;
+    
+            }
+    
+            h1{
+    
+                line-height: 42pt;
+            }
+                .ecoIn-desc{   height: 500px;}
+         
+        }
+    
+    // Kana News
+    
+        .kana-news{
+             .number {
+                font-size: 8rem;
+                margin-left: -76px;
+    
+             }
+             .numbers li {
+    
+                font-size: 2rem;
+                top:41vh;
+    
+             }
+    
+            .kana-news-ul img {
+                transform: scale(0.8);
+                margin-left: -17px;
+            }
+            h1 {
+                display: block;
+                width: 270px !important;
+                word-wrap: break-word;
+                margin-left: calc(100vw/6 *3 - 112px);
+                padding-top: 88px;
+                margin-top: 0px;
+                line-height: 75px;
+                font-size: 5rem;
+              span {
+                    position: absolute;
+                    font-size: 2rem;
+                    margin-top: 6px;
+                    margin-left: 2px;
+                    letter-spacing: 4px;
+                    font-weight: 400;
+                }
+            }
+    
+        }
+    
+        // Clientes
+
+        .clientes-logos .slick-slide > div {
+            height: 99px;
+        }
+    
+        .clientes {
+    
+            h1{
+    
+                 position: relative;
+                left: calc(100vw/6);
+                margin-top: 36px;
+                letter-spacing: .9rem;
+                font-size: 4rem;
+            }
+            .number{
+    
+                font-size: 8rem;
+                margin-left: -95px;
+    
+            }
+    
+    
+            .clientes-logos .slick-slide img {
+                margin: 0 auto;
+                transform: scale(0.8);
+            }
+    
+        }
+    
+    
+    // Fale Conosco
+    
+        .home__contact{
+            height: auto!important;
+            >div {display:block}
+            .office {
+                position: relative;
+                width: 100%;
+                display: block;
+            }
+            .fale-conosco {
+                width: 100%;
+            }
+            .contact-form {
+                
+                width: 100%;
+                padding-top: 0px;
+                position: relative;
+                min-height: 400px;
+                padding-bottom: 205px;
+                form {
+                position: relative;
+                left: inherit;
+                width: 100%;
+                        h1 {
+                            font-size: 40pt;
+                            z-index: 9999999999999999;
+                            position: relative;
+                            left: 10%;
+                            margin-top: -6px;
+                            width: 300px;
+                        }
+
+
+                     p {
+                            font-size: 1.1rem;
+                            display: block;
+                            width: calc(100vw/3 + -40px);
+                            margin: 0 auto;
+                            position: relative;
+
+                    }
+
+                    input,textarea{
+
+                        border: 1px solid #d0d0d0;
+                        padding: 10px 15px;
+                        width: 80vw;
+                        background: #fff;
+                        z-index: 999;
+                        left: 7vw;
+                        position: relative;
+                        margin-top: 20px;
+                        font-size: .9rem !important;
+
+                     }
+                     button[type=submit] {
+                        position: absolute;
+                        right: 6%;
+                        width: 181px;
+                        bottom: -58px;
+                        z-index: 9999;
+                    }
+
+                  }
+             }
+       
+
+        .office{
+            background:#f6f4f4;
+            min-height: 830px;
+           .map-in-box {
+                width: 314px;
+                height: 280px;
+                position: relative;
+                top: -271px;
+                left: -150px;
+                transform: scale(0.95);
+            }
+            .google-map{
+                display:block;
+                    .map-buttons {
+                        left: 8%;
+                        margin-top: inherit;
+                        position: absolute;
+                        bottom: 0px;
+                        top: 38.4vh;
+                            > div {
+
+                                display:none
+                            }
+                            .map-next{
+                                top: inherit;
+                                margin-top: inherit;
+                                left: inherit;
+                                -webkit-transform: scale(0.65);
+                                transform: scale(0.65);
+                                bottom: inherit;
+                            }
+                     }
+
+
+
+                .escritorio-title {
+                    left: -226px;
+                    top: 362px;
+                }
+
+
+
+                .map-in {
+                    top: 58px;
+                    width: 80vw;
+                    height: 82vh;
+                    left: 14%;
+                    padding-left: 0px;
+                }
+            }
+        }
+    }
+     }

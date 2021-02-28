@@ -1,0 +1,103 @@
+.home__first-sliders {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top:0px;
+  max-width: 100%;
+}
+
+.slider-bg{
+
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slider-home h1 {
+  position: absolute;
+  top: 27vh;
+  left: calc(100vw / 6);
+  font-size: 60pt;
+  display: block;
+  max-width: 260px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 5.2rem;
+  letter-spacing: .1rem;
+}
+.slider-title h1 {
+  position: absolute;
+  top: 24vh;
+  left: calc(100vw/6);
+  z-index: 9999999;
+  letter-spacing: 0.3rem;
+  line-height: 5rem;
+  font-size: 5.5rem;
+  font-weight: 700;
+}
+.sliders {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  height: 100vh;
+  .number {
+    position: absolute;
+    left: calc(100vw/6 *5);
+    top: 15vh;
+    z-index: 999;
+    transform: rotate(90deg);
+    font-size: 9rem;
+    margin-left: -72px;
+    color: #18507f;
+    font-weight: 600;
+  }
+  .numbers {
+    position: absolute;
+    z-index: 9999;
+    top: 93vh;
+    width: 100%;
+    display: flex;
+    li {
+      color: #a3c5f2;
+      font-weight: 600;
+      position: absolute;
+      margin-left: -11px;
+      letter-spacing: .2rem;
+      &:nth-child(1){left:calc(100vw/6); }
+      &:nth-child(2){left:calc(100vw/6 * 2); }
+      &:nth-child(3){left:calc(100vw/6 * 3); }
+      &:nth-child(4){left:calc(100vw/6 * 4); }
+      &:nth-child(5){left:calc(100vw/6 * 5); }
+  }
+  }
+}
+.slider-desc {
+  position: absolute;
+  z-index: 999;
+  top: 66vh;
+  left: calc(100vw/6 *2 + 10px);
+  font-size: 1.2rem;
+  letter-spacing: .001rem;
+  width: 189px;
+  color: #989898;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+}
+
+.home__first-sliders .slick-slide {
+  position: relative;
+}
+
+
+.slider-home img {
+  width: 100%;
+  height: 100%;
+}
+.home__first-sliders  .slick-slider .slick-list,.home__first-sliders  .slick-slider .slick-track{transform:none!important;}
+
+.slider-title {
+  position: absolute;
+  top: 30px;
+}

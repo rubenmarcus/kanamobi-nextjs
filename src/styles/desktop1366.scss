@@ -1,0 +1,304 @@
+@media (min-width: 1366px) and  (max-width: 1680px) { 
+
+
+    // Sliders
+    
+    
+        body{
+            overflow-x: hidden;
+        }
+    
+        header img{
+            width: 138px;
+            position: absolute;
+            bottom: 66px;
+    
+        }
+        .home__first{
+    
+            .slider-title h1{
+            line-height: 4rem;
+            font-size: 4.5rem;
+            }
+            .sliders .number {
+    
+                font-size: 8rem;
+                margin-left: -70px;
+    
+            }
+    
+    
+        }
+      
+    
+    // Quem Somos
+    
+        .home__second {
+            height: 887px;
+            .number{
+                font-size: 8rem;
+                margin-left: -62px;
+                top: 1vh;
+            }
+    
+            .qs-timeline-release {
+                max-width:calc(100vw/6 - 22px);
+        
+                }
+        
+    
+            h1{
+    
+                width: 370px;
+                position: relative;
+                left: calc(100vw/6 *2);
+                line-height: 59px;
+                z-index: 999;
+                margin-bottom: 47px;
+                font-size: 4rem;
+                letter-spacing: .7rem;
+                padding-top: 0px;
+                margin-top: -47px;
+    
+            }
+            .qs-sum {
+                font-size: 1.2rem;
+            }
+    
+            .quemsomos-gallery {
+                margin-top: -320px;
+                 transform: scale(0.7);
+                 margin-left: -76px;
+            }
+    
+            .qs-title h2 {
+                font-size: 2rem;
+            }
+    
+            .office {
+    
+                right: -24px;
+                top: 75px;
+            }
+        }
+    
+    // Success Stories 
+    
+        .cases{
+            .cases-info-subtitle {
+
+                left: calc(100vw/6);
+                margin-top: -39px;
+
+            }
+            .legenda-foto {
+                font-size:2rem;
+                bottom:60px;
+            }
+            .number{
+                top:inherit;
+                bottom:5%;
+                font-size:8rem;
+                left: calc(100vw/6 * 5 - 72px);
+            }
+            .cases-info-desc , .cases-info .button-cases-desc {    left: calc(100vw/6);}
+
+            .case-destaque .slick-dots {
+                right: 269px;
+                margin-top: -117px;
+                transform: scale(0.9);
+            }
+
+            .case-destaque button.slick-arrow.slick-next {
+
+                margin-top: -271px;
+                left: 88px;
+                transform: scale(0.7);
+
+             }
+            .cases-info h1 {
+                line-height: 66px;
+                font-size: 50pt;
+                margin-left: 97px;
+                margin-top: 20px;
+            }
+          
+            .casesIn-desc button.slick-arrow.slick-prev {
+                left: -91px;
+                bottom: 116px;
+
+            }
+            .casesIn-desc button.slick-arrow.slick-next{
+            bottom: 32px;
+            margin-left: -90px;
+
+        }
+
+            .case-destaque {
+                width: calc(100vw/6 * 3);
+            }
+    
+            .case-destaque .slick-list {
+                transform: scale(0.65);
+                margin-left: -173px;
+                margin-top: -147px;
+            }
+            .cases-cliente-img {
+                position: absolute;
+                right: 112px;
+                -webkit-transform: rotate(-90deg);
+                transform: scale(1.3) rotate(-90deg);
+                top: 91px;
+            }
+        }
+    
+    
+
+
+    // Ecossistema
+    
+    .home__third{
+        .grid-line-4-above, .grid-line-2-above {
+            top: inherit;
+            bottom: 0px;
+        }
+        .grid-line-1, .grid-line-5 {
+
+            height:152vh
+
+
+        }
+        h1{
+            font-size:45pt
+        }
+        .ecos .outside {
+            width: 768px;
+            height: 767px;
+            position: relative;
+            left: 50%;
+            margin-left: -380px;
+            top: 158px;
+            transform: scale(0.9);
+        }
+        .ecos .inside .label-in{
+            top: 351px;
+            left: 50%;
+            margin-left: -94px;
+        }
+
+        .ecoIn-project h1 {
+            font-size: 20pt!important;
+            line-height: 36px!important;
+            word-break: break-all;
+        }
+        .number{
+
+
+            font-size: 8rem;
+
+        }
+
+        h1{
+
+            line-height: 42pt;
+        }
+            .ecoIn-desc{   height: 500px;}
+     
+    }
+    
+    // Kana News
+    
+        .kana-news{
+             .number {
+                font-size: 8rem;
+                margin-left: -76px;
+    
+             }
+             .numbers li {
+    
+                font-size: 2rem;
+                top:41vh;
+    
+             }
+    
+            .kana-news-ul img {
+                transform: scale(0.8);
+                margin-left: -17px;
+            }
+            h1 {
+                display: block;
+                width: 270px !important;
+                word-wrap: break-word;
+                margin-left: calc(100vw/6 *3 - 112px);
+                padding-top: 88px;
+                margin-top: 0px;
+                line-height: 75px;
+                font-size: 5rem;
+              span {
+                    position: absolute;
+                    font-size: 2rem;
+                    margin-top: 6px;
+                    margin-left: 2px;
+                    letter-spacing: 4px;
+                    font-weight: 400;
+                }
+            }
+    
+        }
+    
+        // Clientes
+    
+        .clientes {
+    
+            h1{
+    
+                 position: relative;
+                left: calc(100vw/6);
+                margin-top: 36px;
+                letter-spacing: .9rem;
+                font-size: 4rem;
+            }
+            .number{
+    
+                font-size: 8rem;
+                margin-left: -95px;
+    
+            }
+    
+    
+            .clientes-logos .slick-slide img {
+                margin: 0 auto;
+                transform: scale(0.8);
+            }
+    
+        }
+    
+    
+    // Fale Conosco
+    
+        .home__contact{
+            .number{    font-size: 8rem;}
+            .map{
+                transform:scale(0.85);     
+                margin-top: -958px;
+                margin-left: -859px;}
+            .map-buttons {
+                margin-top: 431px;
+            }
+            .escritorio-title{
+    
+                left: -168px;
+            }
+           .contact-form .contact-buttons {
+                position: absolute;
+                bottom: 9%;
+                margin-left: 23px;
+            }
+            .contact-form h1{
+                left: -140px;
+                margin-top: -5px;
+                font-size: 40pt;
+            }
+        }
+    
+     }

@@ -1,0 +1,104 @@
+.clientes {
+    z-index: 1;
+    padding: 95px 0px;
+    h1 {
+        position: relative;
+        left: calc(100vw/6);
+        margin-top: 106px;
+        letter-spacing: .9rem;
+        font-size: 6rem;
+    
+    }
+     button.slick-arrow.slick-prev {
+        width: 91px;
+        height: 83px;
+        position: absolute;
+        /* margin-top: -127px; */
+        border: 0px;
+        background: url(/static/images/btn-next.png);
+        font-size: 0px;
+        cursor: pointer;
+        outline: none;
+        right: 0px;
+        background-position: center;
+        bottom: -99px;
+    }
+    button.slick-arrow.slick-next {    display: none!important;}
+    .clientes-logos {
+        width: 99vw;
+        padding-left: 0px;
+        margin-left: 0px;
+        li {
+            width: calc(99vw/6);
+            list-style: none;
+            height: 200px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            opacity: .6;
+            &:hover {
+                opacity: 1;
+                cursor: pointer;
+            }
+        }
+    }
+    .number {
+        position: absolute;
+        left: calc(100vw/6);
+        top: 13vh;
+        z-index: 999;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        font-size: 9rem;
+        margin-left: -106px;
+        color: #18507f;
+        font-weight: 600;
+        left: calc(100vw/6 *4);
+        letter-spacing: 0.6rem;
+    }
+}
+
+.clientes-logos .slick-slide img {
+    margin: 0 auto;
+}
+
+.clientes-logos .slick-slide > div {
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.clientes .numbers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 99vw;
+    padding-left: 0px;
+    margin-left: 0px;
+    li {
+        color: #9dc3f4;
+        text-align: right;
+        align-items: right !important;
+        -webkit-box-align: right;
+        align-items: right;
+        display: block !important;
+        letter-spacing: 2px;
+        width: calc(100vw/6);
+        &:nth-child(1) {
+            margin-left: 9px;
+        }
+        &:nth-child(2) {
+            margin-left: 2px;
+        }
+        &:nth-child(3) {
+            margin-left: 1px;
+        }
+        &:nth-child(4) {
+            margin-left: -1px;
+        }
+        &:nth-child(5) {
+            margin-left: 0px;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.home__first-sliders .grid-line {
+    
+
+  animation-name: increase;
+  animation-duration:  3.5s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: increase;
+  -webkit-animation-duration: 3.5s;
+  animation-timing-function: ease-in-out;
+  // animation-fill-mode: forwards;
+}
+
+.home__first-sliders .numbers li{
+
+
+    animation-name: appear;
+    animation-duration:  5s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: appear;
+    -webkit-animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+@-webkit-keyframes appear {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes appear {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes increase {
+    0%{
+        height: 0;
+    }
+    100% {
+        height: 100vh;
+    }
+}
+@keyframes increase {
+    0%{
+        height: 0;
+    }
+    100% {
+        height: 100vh;
+    }
+}

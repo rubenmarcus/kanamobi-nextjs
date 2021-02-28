@@ -1,0 +1,77 @@
+.home__second {
+    margin-top: 73vh;
+}
+
+header {
+    position: relative;
+    z-index: 999;
+    width: 98vw;
+    height: 259px;
+    img {
+        width: 154px;
+        position: absolute;
+        bottom: 0px;
+        left: calc(100vw /6 - 72px);
+    }
+}
+.social-links{
+
+    position: absolute;
+    z-index: 99999;
+    top: 80vh;
+    left: 7vw;
+    
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.ico-Linkedin{
+
+    width: 25px;
+    height: 25px;
+    background: url(/static/images/ico-Linkedin.svg);
+    display: block;
+    cursor: pointer;
+    background-size: 100% 100%;
+
+
+    &:hover{
+        background: url(/static/images/ico-Linkedin-active.svg);
+        background-size: 100% 100%;
+    }
+}
+
+
+.ico-Facebook{
+    margin-top: 18px;
+    width: 25px;
+    height: 25px;
+    background: url(/static/images/ico-Facebook.svg);
+    display: block;
+    cursor: pointer;
+    background-size: 100% 100%;
+
+
+    &:hover{
+        background: url(/static/images/ico-Facebook-active.svg);
+        background-size: 100% 100%;
+    }
+}
+
+
+
+.ico-Twitter{
+    margin-top: 18px;
+    width: 25px;
+    height: 25px;
+    background: url(/static/images/ico-twitter.svg);
+    display: block;
+    cursor: pointer;
+    background-size: 100% 100%;
+
+
+    &:hover{
+        background: url(/static/images/ico-twitter-active.svg);
+        background-size: 100% 100%;
+    }
+}

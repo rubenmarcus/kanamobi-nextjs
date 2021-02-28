@@ -1,0 +1,14 @@
+
+// Responsive
+@import 'desktop1680';
+@import 'desktop1366';
+@import 'desktop1280';
+@import 'mobile1120';
+@import 'mobile1024';
+@import 'mobile768';
+@import 'mobile468';
+@import 'mobile320';
+
+@media (min-width: 1110px) {
+    .is-mobile{ display: none!important}
+ } 
